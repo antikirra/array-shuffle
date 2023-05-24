@@ -1,4 +1,7 @@
 # Consistent parameterized array shuffling for PHP
+Using a numerical representation of anything (whether it's a client's IP address, a date in the format YYYYMMDD, or a unique user identifier), you can generate a deterministic array of data sorted in a pseudorandom manner. This can be useful for implementing both business tasks and writing tests.
+
+> Be cautious when using associative arrays, deeply nested arrays, or arrays containing objects. The implementation of this library does not guarantee predictable results in all of the mentioned cases. Special attention is given to simplicity of implementation and data processing speed.
 
 ## Install
 
