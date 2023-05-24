@@ -5,7 +5,7 @@ Using a numerical representation of anything (whether it's a client's IP address
 
 ## Install
 
-```bash
+```console
 composer require antikirra/array-shuffle
 ```
 
